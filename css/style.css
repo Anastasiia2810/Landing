@@ -153,12 +153,11 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
     display: flex;
     justify-content: space-between;
     width: 337px;
-    height: 44px;
-    background: #fff url('../img/sign\ play.png') 190px 50% no-repeat;
+    height: 44px;    
     left:165px;
     right: 938px;
-    margin-top: 477px;
-    margin-bottom: 126px;}
+}
+    
 
 
 .form-main-block__button {
@@ -170,15 +169,29 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
     color: #fff;
     box-shadow: 0px 4px 12px 0px;
     background: rgb(84, 76, 172);
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.form-main-block__link {  
-    width: 153px;
-    height: 44px;
-    left: 349px;
-    right: -165px;
-    top: 477px;
-    bottom: -477px;     
+.form-main-block__link { 
+ 
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly;
+} 
+    
+.form-main-block-link__photo{
+    background: url(../img/sign\ play.png) 50% no-repeat;
+    width: 70px;
+    height: 44px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.colortext-link{
+ color: rgb(0, 0, 0);
 }
 
 .body-main-block{
@@ -192,10 +205,6 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
     right: -706px;
     top: 124px;
     bottom: -124px;
-}
-
-.partners-main-block{
-    max-width: 65%;    
 }
 
 .partners-main-block__items{
