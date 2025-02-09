@@ -7,8 +7,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: inherit;
-    font-size: inherit;
 }
 
 html,
@@ -18,14 +16,9 @@ body{
 }
 
 .wrapper {
-    width: 1440px;
-    height: 647px;
     left: 0;
     top: 0;
     min-height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
     box-shadow: 0px 4px 23px 0px rgba(49, 49, 49, 0.05);
     background: rgb(245, 247, 255);
    
@@ -68,8 +61,6 @@ body{
     min-height: 103px;
     gap: 10px;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .header__logo {
@@ -88,14 +79,14 @@ body{
     display:flex;
     flex-wrap: wrap;
     column-gap: 46px;
-    row-gap: 30px;
-   
-
+    row-gap: 30px;  
 }
+
 .menu__item {
     font-weight: 400;
     font-size: 25px;
     text-align: center;
+
 }
 .menu__link {
     color: rgb(39, 35, 35);
@@ -104,7 +95,6 @@ body{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 2%;
-
 }
 
 .form-header-block__input {
@@ -123,27 +113,17 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
     align-items: center;
 }
 
-.main-block__container {
-width: 543px;
-height: 328px;
-left: 165px;
-right: 732px;
-top: 193px;
-margin-bottom: 126px;
-    
+.main-block__container {    
 }
 .content-main-block__body {
-    margin-bottom: 32px;
-    
+    margin-bottom: 32px;    
 }
 
 .content-main-block__title {
-    position: absolute;
     width: 504px;
     height: 164px;
     left: 165px;
     top: 193px;
-    margin-bottom: 290px;
     font-family: Prompt;
     font-size: 45px;
     font-weight: 400;
@@ -151,13 +131,8 @@ margin-bottom: 126px;
     letter-spacing: 7%;
     text-align: left;
 }
-.content-main-block__text {
-    position: absolute;
+.content-main-block__text {   
     width: 543px;
-    height: 72px;
-    left: 165px;
-    top: 375px;
-    margin-bottom: 200px;
     padding-top: 18px;
     display: flex;
     flex-direction: row;
@@ -167,8 +142,7 @@ margin-bottom: 126px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 2%;
-    text-align: left;    
+    letter-spacing: 2%;   
 }
 
 .colortext{
@@ -177,6 +151,7 @@ margin-bottom: 126px;
 
 .content-main-block__form {
     display: flex;
+    justify-content: space-between;
     width: 337px;
     height: 44px;
     background: #fff url('../img/sign\ play.png') 190px 50% no-repeat;
@@ -203,7 +178,7 @@ margin-bottom: 126px;
     left: 349px;
     right: -165px;
     top: 477px;
-    bottom: -477px;    
+    bottom: -477px;     
 }
 
 .body-main-block{
@@ -220,8 +195,7 @@ margin-bottom: 126px;
 }
 
 .partners-main-block{
-    max-width: 65%; 
-    bottom: 32px;
+    max-width: 65%;    
 }
 
 .partners-main-block__items{
@@ -229,13 +203,9 @@ margin-bottom: 126px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    column-gap: 20px;
-    position: absolute;
-    width: 1170px;
-    height: 113.66px;
-    left: 166px;
-    right: 165.01px;
-    top: 639px;
+    max-width: 1441px;
+    margin: 0 auto;
+
    
 }
 
