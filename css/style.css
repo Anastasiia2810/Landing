@@ -1014,6 +1014,11 @@ padding-left: 120px;
 padding-top: 12px;
 }
 
+.item-price__block{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;    
+}
 
 .item-price__sign{
     width: 15.85px;
@@ -1021,6 +1026,7 @@ height: 15.85px;
 left: 230px;
 top: 4358px;
 padding-left: 20px;
+padding-right: 11px ;
 }
 
 .styletext{
@@ -1040,7 +1046,108 @@ letter-spacing: 2%;
 text-align: center;
 }
 
-.item-price__block{
-
-    
+.item-price__button{
+    width: 152px;
+    height: 49px;
+    left: 723px;
+    top: 2736px;
+    border-radius: 47px;
+    box-shadow: 0px 4px 12px 0px ;
+    background: rgb(145, 145, 147);
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 16px;font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 90px;
+    margin-top: 100px;
 }
+
+.item-price__button:hover{
+    background-color: grey;
+}
+
+/*=======================*/
+
+.footer{
+   
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.footer__container{
+    border-radius: 30px 30px 0px 0px;
+    background: rgb(219, 226, 255);
+    max-width: 1900px;
+
+}
+
+.menu-footer__item{
+   
+}
+
+
+.menu-footer__list{
+column-count: 6;
+flex-direction: column-reverse;
+justify-content: space-between;
+padding-top: 50px;
+
+padding-left: 300px;
+gap: 120px;
+
+}
+
+
+.menu-footer__link1{
+    color: rgb(53, 52, 52);
+font-family: Oswald;
+font-size: 24px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: ;
+text-align: left;
+padding-top: 30px;
+
+
+}
+
+.menu-footer__link{
+    display: flex;
+    color: rgb(113, 113, 113);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 2%;
+text-align: left;
+padding-top: 10px;
+
+}
+
+
+
+/*---*/
+
+
+
+
+.footer-partners__link{ 
+    display: flex; 
+    flex-wrap: wrap;
+    padding-top: 120px;
+    padding-left: 500px; 
+    
+   }
+
+.menu-footer-partners__list{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 70px;
+    row-gap: 30px;   
+    }
