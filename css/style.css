@@ -188,7 +188,7 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
     display: flex;
     }
 
-.body-main-block__photo{
+.body-main-block__image{
     justify-content: flex-end;
     width: 568px;
     height: 523px;
@@ -254,8 +254,10 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
         margin-bottom: 10px;
     }
 
-    .body-main-block__photo{
-        margin-left: -100px;
+    .body-main-block__image img{
+        width: 350px;
+        height: 320px;
+        padding-top: 50px;       
     }
 
     .partners-main-block__items{
@@ -365,12 +367,11 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
     align-items: center;
 }
 .content-start-block__title{
-    width: 393px;
+    width: 300px;
     height: 94px;
     left: 165px;
-    padding-top: 75x;
-    padding-left: 0;
-    padding-right: 717px;       
+    padding-top: 75px;
+    padding-left: 0;         
     color: rgb(21, 20, 20);
     font-family: Oswald;
     font-size: 50px;
@@ -469,7 +470,8 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
     .content-start-block__title{
         display: flex;
         flex-direction: column;
-        margin-bottom: 10px;              
+        margin-bottom: 10px;
+        padding-bottom: 40px;              
     }
     
     .content-start-block__items {
@@ -480,10 +482,12 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
     } 
 
 
-    .content-start-block__image{ 
+    .content-start-block__image img{ 
+        width: 370px;
+        height: 300px;
         display: flex; 
         flex-direction: column;
-        margin-left: -40px;
+        left: 5px;
     }
             
       
@@ -703,7 +707,7 @@ padding-top: -25px;
     .content-why-block__title{
         display: flex;
         flex-direction: column;
-        margin-bottom: 10px;
+      
     }
 
     .content-why-block__text{
@@ -1843,7 +1847,11 @@ text-align: center;
 }
 
 
-.menu-footer__link1{
+.menu-footer__firstlink,
+.menu-footer__secondlink,
+.menu-footer__thirdlink,
+.menu-footer__fourthlink,
+.menu-footer__fifthlink{
     color: rgb(53, 52, 52);
     font-family: Oswald;
     font-size: 24px;
