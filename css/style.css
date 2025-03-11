@@ -283,6 +283,12 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
         flex-direction:column ;
     }
 
+    .body-main-block__image img{
+        width: 420px;
+        height: 400px;
+        padding-top: 50px;       
+    }
+
   
 
     .partners-main-block__items{
@@ -518,7 +524,9 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
     .content-start-block__title{
         display: flex;
         flex-direction: column;
-        margin-bottom: 10px;              
+        margin-bottom: 50px; 
+        justify-content: center; 
+               
     }
     
     .content-start-block__items {
@@ -526,13 +534,14 @@ background: rgb(255, 255, 255) url('../img/Vector.png') 280px 50% no-repeat;
         flex-direction: column;
         padding-bottom: 90px;
         margin-left: -15px;
+        align-items: center;
     } 
 
 
-    .content-start-block__image{ 
-        display: flex; 
-        flex-direction: column;
-        margin-left: -150px;
+    .content-start-block__image img{ 
+        width: 450px;
+        height: 400px;               
+        left: 5px;
     }
 
   }
